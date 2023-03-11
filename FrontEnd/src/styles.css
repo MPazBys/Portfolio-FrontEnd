@@ -15,84 +15,6 @@
         background: linear-gradient( rgba(155, 62, 0, 0.295), rgba(201, 121, 0, 0.308))
     }
     
-    /* *********************/
-    /* seccion E D U C A C I O N */
-    /* *********************/
-    
-    #educacion {
-        padding: 100px 15px;
-        text-align: center;
-    }
-    
-    #educacion .titulo-seccion {
-        text-align: center;
-        font-size: 22px;
-        text-transform: uppercase;
-        color: #111135;
-        text-decoration: underline;
-        text-decoration-color: #d3d3d3;
-        text-decoration-thickness: 5px;
-    }
-    
-    #educacion .fila {
-        display: flex;
-        justify-content: space-between;
-        max-width: 1150px;
-        margin: 30px auto;
-    }
-    
-    #educacion .fila .educación {
-        max-width: 350px;
-        background-color: #fff;
-        padding: 30px;
-        margin: 15px auto;
-        border-radius: 5px;
-        transition: .5s;
-    }
-    
-    #educacion .fila .educación:hover {
-        box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
-    }
-    
-    #educacion .fila .educación h4 {
-        font-size: 22px;
-        margin-bottom: 25px;
-    }
-    
-    #educacion .fila .educación hr {
-        width: 30%;
-        margin: auto;
-        color: #000;
-        margin-bottom: 25px;
-    }
-
-    #educacion .fila .educación ul {
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 10px;
-    }
-    
-    #educacion .fila .educación p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    #I-29 {
-        width: 100px;
-    }
-
-    #logo-universidad-nacional-del-nordeste {
-        width: 125px;
-    }
-
-    #Junior-Achievement-Argentina_Positivo-1 {
-        width: 100px;
-    }
-
-    #ArgentinaPrograma {
-        width: 125px;
-    }
 
     /* *********************/
     /* seccion S K I L L S */
@@ -295,25 +217,25 @@
         .redes {
             display: none;
         }
-        #inicio .contenido .presentacion h2 {
+        .inicio .contenido .presentacion h2 {
             font-size: 40px;
         }
         /* seccion SOBRE MI */
-        #sobremi {
+        .sobremi {
             padding: 50px 0;
             display: block;
         }
-        #sobremi .contenedor-foto {
+        .sobremi .contenedor-foto {
             max-width: 200px;
             margin: auto;
         }
-        #sobremi .contenedor-foto img {
+        .sobremi .contenedor-foto img {
             padding: 8px;
         }
-        #sobremi .sobremi .titulo-seccion {
+        .sobremi .sobremi .titulo-seccion {
             text-align: center;
         }
-        #sobremi .sobremi h2 {
+        .sobremi .sobremi h2 {
             font-size: 25px;
             text-align: center;
         }
