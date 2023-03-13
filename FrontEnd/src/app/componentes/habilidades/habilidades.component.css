@@ -3,7 +3,7 @@
         /* *********************/
         
         .contenedor-skills {
-            background: linear-gradient( #000000cc, rgba(0, 0, 0, 0.8)), url("/FrontEnd/src/img/fondo\ 2.jpg");
+            background: linear-gradient( #000000cc, rgba(0, 0, 0, 0.8)), url("../../../assets/fondo\ 2.jpg");
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
