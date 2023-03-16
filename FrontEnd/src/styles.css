@@ -59,6 +59,13 @@ body {
     color: #ff5080;
 }
 
+#inicio .contenido header .contenido-header .btn {
+    --bs-btn-border-color: #ffffff00;
+    --bs-btn-hover-color: #ff5080;
+    --bs-btn-hover-bg: #ffffff00;
+    --bs-btn-hover-border-color: #ffffff00;
+}
+
 #inicio .contenido .presentacion {
     max-width: 1100px;
     height: 100vh;
@@ -88,6 +95,10 @@ body {
     margin: 25px auto;
     font-size: 18px;
     text-align: center;
+}
+
+#inicio .contenido header .contenido-header .row{
+    margin: 0%;
 }
 
 
@@ -238,6 +249,15 @@ body {
     background-position: center center;
     padding: 100px 0;
     text-align: center;
+}
+
+.contenedor-skills .skill {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.contenedor-skills .row{
+    margin: 0%
 }
 
 /* *********************/
